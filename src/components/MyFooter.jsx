@@ -2,7 +2,7 @@ import { Nav } from 'react-bootstrap'
 
 const MyFooter = () => (
   <footer>
-    <div className="row justify-content-center mt-5">
+    <div className="d-flex justify-content-center mt-5">
       <div className="col col-6">
         <div className="row">
           <div className="col mb-2">
