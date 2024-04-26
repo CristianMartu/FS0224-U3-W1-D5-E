@@ -2,6 +2,11 @@ body {
   background-color: #221f1f;
 }
 
+/* body for settings */
+/* body {     
+  background-color: white;
+} */
+
 h2,
 h4,
 footer {
@@ -58,4 +63,92 @@ footer {
 
 .col img:hover {
   transform: scale(1.1);
+}
+
+/* edit-profile */
+@media screen and (min-width: 767px) {
+  #bodyEdit,
+  #bodyEdit button,
+  #bodyEdit .buttons a {
+    font-size: 22px;
+  }
+  .account-info {
+    display: flex;
+    gap: 10%;
+  }
+}
+
+.stretch {
+  max-width: 700px;
+}
+
+.account-avatar {
+  width: 20%;
+}
+.account-Choices {
+  width: 80%;
+}
+.account-info select {
+  background-color: black;
+  color: white;
+  border: transparent;
+}
+.buttons {
+  display: flex;
+  gap: 5%;
+  font-size: 1rem;
+}
+.buttons button {
+  background-color: white;
+  color: #141414;
+  border: 1px solid;
+  font-weight: 600;
+  width: 25%;
+}
+.buttons a {
+  color: white;
+  opacity: 0.4;
+  border: 1px solid;
+  font-weight: 600;
+  border-radius: 0;
+}
+.buttons a:nth-child(1) {
+  width: 25%;
+}
+.buttons a:nth-child(2) {
+  width: 40%;
+}
+.buttons a:nth-child(2):hover {
+  transition: 1s;
+  transition: 1s;
+  opacity: 1;
+  border: 1px solid;
+}
+
+#badge {
+  margin-top: 108px;
+  margin-left: 5px;
+  font-size: 20px;
+  padding: 5px;
+  border: 3px solid #fff;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+/* Account page */
+.container-settings {
+  max-width: 900px;
+  margin-inline: auto;
+}
+.size {
+  width: 80px;
+}
+
+#account span {
+  color: rgb(92, 92, 245);
+}
+.account h3 {
+  opacity: 0.6;
+}
+nav {
+  background-color: #221f1f;
 }
