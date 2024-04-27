@@ -44,7 +44,7 @@ class MyMain extends Component {
         <h4>Game</h4>
         <MyCarousel filmName="star wars" type="game" page="3" />
         <h4>Series</h4>
-        <MyCarousel filmName="marvel" type="series" page="3" />
+        <MyCarousel filmName="series" type="series" page="6" />
       </div>
     )
   }
