@@ -6,14 +6,17 @@ import MyFooter from './components/MyFooter'
 import MyMain from './components/MyMain'
 import MyEdit from './components/MyEdit'
 import MySettings from './components/MySettings'
+import { Container } from 'react-bootstrap'
 
 function App() {
   return (
     // Netflix HopePage
     <div className="App">
-      <MyNavbar />
-      <MyMain />
-      <MyFooter />
+      <Container>
+        <MyNavbar />
+        <MyMain />
+        <MyFooter />
+      </Container>
     </div>
 
     // Netflix Edit
@@ -22,10 +25,10 @@ function App() {
     // </div>
 
     // Netflix Settings
-    // <div className="App">
-    //   <MyNavbar />
-    //   <MySettings />
-    // </div>
+    //   <div className="App bg-white">
+    //     <MyNavbar />
+    //     <MySettings />
+    //   </div>
   )
 }
 

@@ -1,6 +1,7 @@
 import { Component } from 'react'
 import { ButtonGroup, Dropdown, DropdownButton } from 'react-bootstrap'
 import MyGallery from './MyGallery'
+import MyCarousel from './MyCarousel'
 
 class MyMain extends Component {
   render() {
@@ -15,7 +16,7 @@ class MyMain extends Component {
                   <DropdownButton
                     as={ButtonGroup}
                     title="Genres"
-                    variant="btn btn-dark btn-sm dropdown-toggle rounded-0 border-secondary"
+                    variant="btn btn-dark btn-sm dropdown-toggle rounded-1 border-secondary"
                     menuVariant="dark"
                   >
                     <Dropdown.Item eventKey="1">Comedy</Dropdown.Item>
@@ -32,11 +33,18 @@ class MyMain extends Component {
           </div>
         </div>
         <h4>Trending Now</h4>
-        <MyGallery filmName="Star Wars" />
+        <MyCarousel filmName="Star Wars" type="movie" page="6" />
+        {/* <MyGallery filmName="Star Wars" /> */}
         <h4>Watch it Again</h4>
-        <MyGallery filmName="Harry Potter" />
+        <MyCarousel filmName="movie" type="movie" page="6" />
+        {/* <MyGallery filmName="marvel" /> */}
         <h4>New Releases</h4>
-        <MyGallery filmName="Mission Impossible" />
+        <MyCarousel filmName="Disney" type="movie" page="6" />
+        {/* <MyGallery filmName="Disney" /> */}
+        <h4>Game</h4>
+        <MyCarousel filmName="star wars" type="game" page="3" />
+        <h4>Series</h4>
+        <MyCarousel filmName="marvel" type="series" page="3" />
       </div>
     )
   }

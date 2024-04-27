@@ -2,11 +2,6 @@ body {
   background-color: #221f1f;
 }
 
-/* body for settings */
-/* body {     
-  background-color: white;
-} */
-
 h2,
 h4,
 footer {
@@ -151,4 +146,7 @@ footer {
 }
 nav {
   background-color: #221f1f;
+}
+#account {
+  height: calc(100vh - 105px);
 }

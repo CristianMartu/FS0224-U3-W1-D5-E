@@ -1,72 +1,72 @@
 import avatar from '../assets/avatar.png'
 
 const MySettings = () => (
-  <div class="container-settings px-3 mt-4" id="account">
+  <div className="container-settings px-3 mt-4" id="account">
     <h1>Account</h1>
     <hr />
-    <div class="d-sm-flex gap-3">
-      <div class="w-25">
+    <div className="d-sm-flex gap-3">
+      <div className="w-25">
         <h3>MEMBERSHIP & BILLING</h3>
-        <button class="btn btn-secondary">Cancel Membership</button>
+        <button className="btn btn-secondary">Cancel Membership</button>
       </div>
-      <div class="w-75">
-        <div class="d-sm-flex justify-content-between">
-          <p class="fw-bold">student@strive.school</p>
+      <div className="w-75">
+        <div className="d-sm-flex justify-content-between">
+          <p className="fw-bold">student@strive.school</p>
           <span href="#">Change account email</span>
         </div>
-        <div class="d-flex justify-content-between">
-          <p class="opacity-50">Password: ********</p>
+        <div className="d-flex justify-content-between">
+          <p className="opacity-50">Password: ********</p>
           <span href="#">Change password</span>
         </div>
-        <div class="d-flex justify-content-between">
-          <p class="opacity-50">Phone: 321 044 1279</p>
+        <div className="d-flex justify-content-between">
+          <p className="opacity-50">Phone: 321 044 1279</p>
           <span href="#">Change phone number</span>
         </div>
         <hr />
-        <div class="d-sm-flex justify-content-between">
+        <div className="d-sm-flex justify-content-between">
           <div>
             <img
               src="https://www.avvisopubblico.it/home/wp-content/uploads/2022/06/paypal_puls.png"
               alt="paypal"
-              class="size"
+              className="size"
             />
-            <p class="d-sm-inline fw-bold">admin@strive.school</p>
+            <p className="d-sm-inline fw-bold">admin@strive.school</p>
           </div>
           <span href="#">Update payment info</span>
         </div>
-        <div class="d-flex justify-content-end">
+        <div className="d-flex justify-content-end">
           <span href="#">Billing details</span>
         </div>
         <hr />
-        <div class="d-flex justify-content-end">
+        <div className="d-flex justify-content-end">
           <span href="#">Redeem gift card or promo code</span>
         </div>
-        <div class="d-flex justify-content-end">
+        <div className="d-flex justify-content-end">
           <span href="#">Where to buy gift cards</span>
         </div>
       </div>
     </div>
     <hr />
-    <div class="d-sm-flex gap-3">
-      <h3 class="w-25">PLAN DETAILS</h3>
-      <div class="d-flex justify-content-between w-75">
+    <div className="d-sm-flex gap-3">
+      <h3 className="w-25">PLAN DETAILS</h3>
+      <div className="d-flex justify-content-between w-75">
         <div>
-          <p class="d-sm-inline fw-bold">Premium</p>
+          <p className="d-sm-inline fw-bold">Premium</p>
           <img
             src="https://vath.co/wp-content/uploads/2019/03/Ultra_HD_Sticker_10_x_40mm_WEB.jpg"
             alt="ultra-hd"
-            class="size"
+            className="size"
           />
         </div>
         <span href="#">Change plan</span>
       </div>
     </div>
     <hr />
-    <div class="row settings flex-column flex-md-row">
-      <div class="col-3">
+    <div className="row settings flex-column flex-md-row">
+      <div className="col-3">
         <h3>Settings</h3>
       </div>
-      <div class="col-9">
+      <div className="col-9">
         <span href="#">Parental controls</span>
         <br />
         <span href="#">Test participation</span>
@@ -83,13 +83,13 @@ const MySettings = () => (
     </div>
     <hr />
 
-    <div class="d-flex flex-column flex-md-row">
-      <div class="w-25">
+    <div className="d-flex flex-column flex-md-row">
+      <div className="w-25">
         <h3>My profile</h3>
       </div>
-      <div class="w-75 d-sm-flex justify-content-between">
-        <div class="col col-12 d-flex flex-column col-sm-3">
-          <div class="flex-column flex-sm-row mb-3">
+      <div className="w-75 d-sm-flex justify-content-between">
+        <div className="col col-12 d-flex flex-column col-sm-3">
+          <div className="flex-column flex-sm-row mb-3">
             <img src={avatar} width="36" height="36" alt="avatar" className="rounded" />
             <span>Strive Student</span>
           </div>
@@ -97,11 +97,11 @@ const MySettings = () => (
           <span href="#">Payback settings</span>
           <span href="#">Subtitle appearance</span>
         </div>
-        <div class="col col-12 d-flex flex-column col-sm-2">
+        <div className="col col-12 d-flex flex-column col-sm-2">
           <span href="#">Viewing activity</span>
           <span href="#">Ratings</span>
         </div>
-        <div class="col col-12 col-sm-3 text-sm-end">
+        <div className="col col-12 col-sm-3 text-sm-end">
           <span href="#">Manage profiles</span>
           <br />
           <span href="#">Add profile email</span>
