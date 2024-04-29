@@ -113,7 +113,7 @@ class MyCarouselSlick extends Component {
           return this.state.error === true ? (
             <Alert variant="danger">{this.state.errorMsg}</Alert>
           ) : (
-            item.slice(0, 6).map((film) => {
+            item.map((film) => {
               return film.Poster !== 'N/A' ? (
                 <div key={film.imdbID}>
                   <Image
